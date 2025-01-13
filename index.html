@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kandidaten hinzufügen</title>
+    <title>Kandidaten hinzufÃ¼gen</title>
 </head>
 <body>
-    <h1>Kandidaten hinzufügen</h1>
+    <h1>Kandidaten hinzufÃ¼gen</h1>
     <form id="candidateForm">
         <label for="firstname">Vorname:</label><br>
         <input type="text" id="firstname" name="firstname" required><br>
@@ -26,7 +26,7 @@
         <label for="address">Adresse:</label><br>
         <textarea id="address" name="address" required></textarea><br>
 
-        <label for="nationality">Staatsangehörigkeit:</label><br>
+        <label for="nationality">StaatsangehÃ¶rigkeit:</label><br>
         <input type="text" id="nationality" name="nationality" required><br>
 
         <label for="linkedin">LinkedIn Profil:</label><br>
@@ -41,13 +41,13 @@
         <label for="qualifications">Qualifikationen:</label><br>
         <textarea id="qualifications" name="qualifications" required></textarea><br>
 
-        <label for="skills">Fähigkeiten:</label><br>
+        <label for="skills">FÃ¤higkeiten:</label><br>
         <textarea id="skills" name="skills" required></textarea><br>
 
         <label for="languages">Sprachkenntnisse:</label><br>
         <input type="text" id="languages" name="languages"><br>
 
-        <label for="availability">Verfügbarkeit:</label><br>
+        <label for="availability">VerfÃ¼gbarkeit:</label><br>
         <input type="text" id="availability" name="availability"><br>
 
         <label for="salaryExpectations">Gehaltserwartungen:</label><br>
@@ -62,7 +62,7 @@
         <label for="portfolioProjects">Projektportfolio:</label><br>
         <textarea id="portfolioProjects" name="portfolioProjects"></textarea><br>
 
-        <label for="comments">Zusätzliche Anmerkungen:</label><br>
+        <label for="comments">ZusÃ¤tzliche Anmerkungen:</label><br>
         <textarea id="comments" name="comments"></textarea><br>
 
         <label for="status">Status:</label><br>
@@ -72,7 +72,7 @@
             <option value="Abgelehnt">Abgelehnt</option>
         </select><br>
 
-        <input type="submit" value="Kandidaten hinzufügen">
+        <input type="submit" value="Kandidaten hinzufÃ¼gen">
     </form>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -81,14 +81,14 @@
             event.preventDefault();
             const formData = new FormData(this);
 
-            // API-Aufruf zum Hinzufügen des Kandidaten
+            // API-Aufruf zum HinzufÃ¼gen des Kandidaten
             fetch("https://deine-api-endpoint-hier", {
                 method: "POST",
                 body: formData,
             })
             .then(response => response.json())
-            .then(data => alert("Kandidat hinzugefügt!"))
-            .catch(error => console.error("Fehler beim Hinzufügen:", error));
+            .then(data => alert("Kandidat hinzugefÃ¼gt!"))
+            .catch(error => console.error("Fehler beim HinzufÃ¼gen:", error));
         });
     </script>
 </body>

@@ -1,4 +1,4 @@
-/* Grundlegende Formatierungen für die Seite */
+ï»¿/* Grundlegende Formatierungen fÃ¼r die Seite */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,14 +7,14 @@ body {
     padding: 0;
 }
 
-/* Stil für die Hauptüberschrift */
+/* Stil fÃ¼r die HauptÃ¼berschrift */
 h1 {
     text-align: center;
     color: #2c3e50;
     margin-top: 20px;
 }
 
-/* Container für die Liste der Kandidaten */
+/* Container fÃ¼r die Liste der Kandidaten */
 #candidate-list {
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@ h1 {
     margin-top: 20px;
 }
 
-/* Stil für jedes Kandidaten-Div */
+/* Stil fÃ¼r jedes Kandidaten-Div */
 .candidate {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -34,12 +34,12 @@ h1 {
     transition: transform 0.2s ease;
 }
 
-/* Hover-Effekt für Kandidaten */
+/* Hover-Effekt fÃ¼r Kandidaten */
 .candidate:hover {
     transform: scale(1.05);
 }
 
-/* Stil für die Button-Komponenten */
+/* Stil fÃ¼r die Button-Komponenten */
 button {
     background-color: #3498db;
     color: #fff;

@@ -1,4 +1,4 @@
-// Beispiel-Daten für Kandidaten (diese könnten später aus einer Datenbank kommen)
+ï»¿// Beispiel-Daten fÃ¼r Kandidaten (diese kÃ¶nnten spÃ¤ter aus einer Datenbank kommen)
 const candidates = [
     {
         name: "Max Mustermann",
@@ -17,7 +17,7 @@ const candidates = [
 // Funktion, um Kandidaten anzuzeigen
 function displayCandidates() {
     const candidateListDiv = document.getElementById("candidate-list");
-    candidateListDiv.innerHTML = ""; // Leert die Liste, bevor neue Kandidaten hinzugefügt werden
+    candidateListDiv.innerHTML = ""; // Leert die Liste, bevor neue Kandidaten hinzugefÃ¼gt werden
 
     candidates.forEach(candidate => {
         const candidateDiv = document.createElement("div");
